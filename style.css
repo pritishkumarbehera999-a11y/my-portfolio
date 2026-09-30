@@ -103,8 +103,8 @@ span {
 .home-img img {
     width: 32vw;
     height: 32vw;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 380px;
+    max-height: 380px;
     object-fit: cover;
     border-radius: 50%;
     border: .3rem solid var(--main-color);
