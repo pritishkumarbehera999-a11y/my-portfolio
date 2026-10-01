@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pritish Kumar Behera - Portfolio</title>
-
-    <!-- Font Awesome Icons Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- CSS File Link -->
+    <title>Pritish Kumar Behera | Portfolio</title>
+    <!-- Boxicons for Social & UI Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header / Navbar Section -->
+    <!-- Header Navbar -->
     <header class="header">
-        <a href="#" class="logo">Pritish.</a>
+        <a href="#home" class="logo">PRITISH</a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </nav>
-
-        <div class="fa-solid fa-bars" id="menu-icon"></div>
     </header>
 
     <!-- Home Section -->
@@ -33,17 +33,16 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Pritish Kumar Behera</h1>
-            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
-            <p>I design and build functional, responsive, and visual web applications using modern technologies.</p>
-
+            <h3>And I'm a <span>Frontend Developer</span> <span class="player-tag">Player #001</span></h3>
+            <p>B.Tech student passionate about building modern, responsive, and user-friendly web applications with hands-on experience in Frontend Development and Data Analytics.</p>
+            
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/pritishkumarbehera999-a11y" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="tel:+918260638648"><i class='bx bx-phone'></i></a>
+                <a href="mailto:pritish@email.com"><i class='bx bx-envelope'></i></a>
             </div>
 
-            <a href="#" class="btn">Download CV</a>
+            <a href="resume.pdf" class="btn" download>Download CV</a>
         </div>
 
         <div class="home-img">
@@ -54,57 +53,183 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="Profile.png" alt="Pritish Kumar Behera">
+            <img src="Profile.png" alt="About Pritish">
         </div>
 
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend Developer!</h3>
-            <p>Hi, I am Pritish Kumar Behera. I create dynamic, responsive websites that deliver seamless user experiences through modern HTML, CSS, and JavaScript design.</p>
-            <a href="#" class="btn">Read More</a>
+            <h3>Tech Enthusiast & Web Developer</h3>
+            <p>I am a B.Tech student at College of Engineering Bhubaneswar with a strong foundation in web technologies and data tools. I love creating visually appealing and interactive interfaces that provide seamless user experiences.</p>
+            <p>📍 Location: Kataka, Odisha, India</p>
+            <a href="#contact" class="btn">Let's Talk</a>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
 
-        <div class="services-container">
-            <div class="services-box">
-                <i class="fa-solid fa-code"></i>
-                <h3>Web Development</h3>
-                <p>Exceptional website designs made for your business needs using clean and structured code.</p>
-                <a href="#" class="btn">Read More</a>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML5 & CSS3</h3>
+                <p>Structuring responsive, semantic, and modern web layouts.</p>
             </div>
 
-            <div class="services-box">
-                <i class="fa-solid fa-paint-brush"></i>
-                <h3>UI/UX Design</h3>
-                <p>Creating modern, interactive, and eye-catching user interfaces for better web experience.</p>
-                <a href="#" class="btn">Read More</a>
+            <div class="skills-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>Adding interactivity, DOM manipulation, and dynamic functionality.</p>
             </div>
 
-            <div class="services-box">
-                <i class="fa-solid fa-chart-line"></i>
-                <h3>Digital Marketing</h3>
-                <p>Strategies and optimized website design to boost your online visibility and brand reach.</p>
-                <a href="#" class="btn">Read More</a>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>VS Code</h3>
+                <p>Efficient code editing, debugging, and extension management.</p>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-github'></i>
+                <h3>Git & GitHub</h3>
+                <p>Version control, repository management, and code hosting.</p>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-bar-chart-alt-2'></i>
+                <h3>Tableau</h3>
+                <p>Data visualization, dashboard creation, and analytics reporting.</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Internship <span>Experience</span></h2>
+
+        <div class="timeline-container">
+            <div class="timeline-box">
+                <div class="timeline-content">
+                    <div class="year">CTTC (Central Tool Room & Training Centre)</div>
+                    <h3>Web Development Intern</h3>
+                    <p>Designed and structured responsive web interface components using HTML, CSS, and JavaScript. Focused on layout optimization, clean code structure, and cross-device display compatibility.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box">
+                <div class="timeline-content">
+                    <div class="year">CTTC (Central Tool Room & Training Centre)</div>
+                    <h3>Data Analytics Intern</h3>
+                    <p>Analyzed data trends and created visual reports using tools like Tableau to present structured insights and support data-driven decision-making processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects / Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <!-- Project 1: Personal Portfolio -->
+            <div class="portfolio-box">
+                <img src="project1.jpg" alt="Personal Portfolio Website">
+                <div class="portfolio-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>A responsive personal portfolio website showcasing skills, internships, and background with a custom Squid Game theme.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/pritishkumarbehera999-a11y" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-box">
+                <img src="project2.jpg" alt="Data Analytics Project">
+                <div class="portfolio-layer">
+                    <h4>Tableau Data Dashboard</h4>
+                    <p>Visualized analytics trends and key performance indicators using custom dashboards in Tableau.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/pritishkumarbehera999-a11y" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-box">
+                <img src="project3.jpg" alt="Web App Project">
+                <div class="portfolio-layer">
+                    <h4>Frontend Web App</h4>
+                    <p>Interactive web application component featuring modern design aesthetics and smooth scrolling navigation.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/pritishkumarbehera999-a11y" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="timeline-container">
+            <div class="timeline-box">
+                <div class="timeline-content">
+                    <div class="year">2024 – 2027</div>
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <p><strong>College:</strong> College of Engineering Bhubaneswar (CEB)</p>
+                    <p><strong>CGPA:</strong> 7.85 / 10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="8" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2026 by Pritish Kumar Behera | All Rights Reserved.</p>
         </div>
 
         <div class="footer-iconTop">
-            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
 
-    <!-- JavaScript File Link -->
-    <script src="script.js"></script>
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('bx-x');
+            navbar.classList.toggle('active');
+        };
+
+        window.onscroll = () => {
+            menuIcon.classList.remove('bx-x');
+            navbar.classList.remove('active');
+        };
+    </script>
 </body>
 </html>
